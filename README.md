@@ -48,9 +48,12 @@ git clone https://github.com/YOUR-USERNAME/mpesa-daraja-nextjs.git
 cd mpesa-daraja-nextjs
 ## 🛠 Setup
 
+---
 ### 2. Install dependencies
 ```bash
 npm install
+
+---
 ### 3. Configure Environment Variables
 Create a .env.local file in the root directory and add your M-Pesa credentials:
 ```bash
@@ -60,12 +63,15 @@ MPESA_PASSKEY=your_passkey
 MPESA_SHORTCODE=your_shortcode
 MPESA_CALLBACK_URL=https://yourdomain.com/api/callback
 
+---
+
 ### 4. Run the development server
 ```bash
 npm run dev
 Visit http://localhost:3000
  in your browser.
 
+---
 ## 📸 Screenshots
 _(Optional: Add screenshots of your UI here)_
 
