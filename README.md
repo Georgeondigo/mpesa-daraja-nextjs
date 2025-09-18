@@ -36,7 +36,7 @@ This project is built with **TypeScript** and styled with **Shadcn UI & Tailwind
 ├── styles/               # Tailwind CSS styles
 ├── package.json
 └── README.md
-
+```bash
 
 ---
 
