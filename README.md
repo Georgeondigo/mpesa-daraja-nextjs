@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Mpesa Daraja Next.js Integration
 
-## Getting Started
+A Next.js + Tailwind CSS application demonstrating how to integrate M-Pesa Daraja API for seamless mobile money payments in Kenya. This project is built with TypeScript and styled with Shadcn UI & TailwindCSS.
 
-First, run the development server:
+🚀 Features
 
-```bash
+M-Pesa STK Push (Lipa na M-Pesa) integration
+
+User-friendly payment form (phone + amount)
+
+TailwindCSS + Shadcn UI components
+
+TypeScript support
+
+Ready for deployment
+
+🛠 Tech Stack
+
+Next.js
+ – React framework
+
+Tailwind CSS
+ – Utility-first CSS
+
+Shadcn UI
+ – UI Components
+
+M-Pesa Daraja API
+ – Mobile payment gateway
+
+📂 Project Structure
+├── app/
+│   └── page.tsx          # Main payment form page
+├── components/ui/        # Shadcn UI components (Card, Button, Input, Label)
+├── public/               # Static files
+├── styles/               # Tailwind CSS styles
+├── package.json
+└── README.md
+
+⚙️ Setup
+1. Clone the repository
+git clone https://github.com/YOUR-USERNAME/mpesa-daraja-nextjs.git
+cd mpesa-daraja-nextjs
+
+2. Install dependencies
+npm install
+
+3. Configure Environment Variables
+
+Create a .env.local file in the root directory and add your M-Pesa credentials:
+
+MPESA_CONSUMER_KEY=your_consumer_key
+MPESA_CONSUMER_SECRET=your_consumer_secret
+MPESA_PASSKEY=your_passkey
+MPESA_SHORTCODE=your_shortcode
+MPESA_CALLBACK_URL=https://yourdomain.com/api/callback
+
+4. Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Visit http://localhost:3000 in your browser.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+📸 Screenshots
 
-## Learn More
+(Optional: add screenshots of your UI here)
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+📝 API Routes
+Route	Method	Description
+/api/stkpush	POST	Initiate M-Pesa STK Push
+/api/callback	POST	Handle M-Pesa callback
