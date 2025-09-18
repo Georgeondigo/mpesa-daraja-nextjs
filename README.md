@@ -1,28 +1,28 @@
 # Mpesa Daraja Next.js Integration
 
-A Next.js + Tailwind CSS application demonstrating how to integrate **M-Pesa Daraja API** for seamless mobile money payments in Kenya.  
+A **Next.js + Tailwind CSS** application demonstrating how to integrate **M-Pesa Daraja API** for seamless mobile money payments in Kenya.  
 This project is built with **TypeScript** and styled with **Shadcn UI & TailwindCSS**.
 
 ---
 
 ## 🚀 Features
 
-- ✅ M-Pesa STK Push (Lipa na M-Pesa) integration  
-- ✅ User-friendly payment form (phone + amount)  
-- ✅ TailwindCSS + Shadcn UI components  
-- ✅ TypeScript support  
-- ✅ Ready for deployment  
+- ✅ **M-Pesa STK Push (Lipa na M-Pesa)** integration  
+- ✅ **User-friendly payment form** (phone + amount)  
+- ✅ **TailwindCSS + Shadcn UI** components  
+- ✅ **TypeScript support**  
+- ✅ **Ready for deployment**  
 
 ---
 
 ## 🛠 Tech Stack
 
-| Technology       | Description                  |
-|-----------------|------------------------------|
-| Next.js         | React framework              |
-| Tailwind CSS    | Utility-first CSS            |
-| Shadcn UI       | UI Components                |
-| M-Pesa Daraja API | Mobile payment gateway      |
+| Technology         | Description                  |
+|-------------------|------------------------------|
+| **Next.js**       | React framework              |
+| **Tailwind CSS**  | Utility-first CSS            |
+| **Shadcn UI**     | UI Components                |
+| **M-Pesa Daraja API** | Mobile payment gateway    |
 
 ---
 
@@ -36,6 +36,7 @@ This project is built with **TypeScript** and styled with **Shadcn UI & Tailwind
 ├── styles/               # Tailwind CSS styles
 ├── package.json
 └── README.md
+
 
 ---
 
