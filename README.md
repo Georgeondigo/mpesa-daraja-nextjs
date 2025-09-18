@@ -36,7 +36,7 @@ This project is built with **TypeScript** and styled with **Shadcn UI & Tailwind
 ├── styles/               # Tailwind CSS styles
 ├── package.json
 └── README.md
-
+``` 
 ---
 
 ## ⚙️ Setup
@@ -45,13 +45,14 @@ This project is built with **TypeScript** and styled with **Shadcn UI & Tailwind
 ```bash
 git clone https://github.com/YOUR-USERNAME/mpesa-daraja-nextjs.git
 cd mpesa-daraja-nextjs
+``` 
 ## 🛠 Setup
 
 ---
 ### 2. Install dependencies
 ```bash
 npm install
-
+``` 
 ---
 ### 3. Configure Environment Variables
 Create a .env.local file in the root directory and add your M-Pesa credentials:
@@ -61,12 +62,13 @@ MPESA_CONSUMER_SECRET=your_consumer_secret
 MPESA_PASSKEY=your_passkey
 MPESA_SHORTCODE=your_shortcode
 MPESA_CALLBACK_URL=https://yourdomain.com/api/callback
-
+``` 
 ---
 
 ### 4. Run the development server
 ```bash
 npm run dev
+``` 
 Visit http://localhost:3000
  in your browser.
 
