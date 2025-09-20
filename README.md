@@ -5,13 +5,13 @@ This project is built with **TypeScript** and styled with **Shadcn UI & Tailwind
 
 ---
 
-## 🚀 Features
+##  Features
 
-- ✅ **M-Pesa STK Push (Lipa na M-Pesa)** integration  
-- ✅ **User-friendly payment form** (phone + amount)  
-- ✅ **TailwindCSS + Shadcn UI** components  
-- ✅ **TypeScript support**  
-- ✅ **Ready for deployment**  
+-  **M-Pesa STK Push (Lipa na M-Pesa)** integration  
+-  **User-friendly payment form** (phone + amount)  
+-  **TailwindCSS + Shadcn UI** components  
+-  **TypeScript support**  
+-  **Ready for deployment**  
 
 ---
 
